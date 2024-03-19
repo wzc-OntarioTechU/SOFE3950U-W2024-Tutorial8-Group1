@@ -1,6 +1,8 @@
+#ifndef process_H
+#include "process.h"
+#endif
 #ifndef processTree_H
 #define processTree_H
-#include "process.h"
 struct proc_tree {
 	struct proc process;
 	struct proc_tree* leftNode;
